@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  username: string = '';
   title = 'Fyle-project';
+  userSearchHandler(username: string) {
+    this.username = username;
+  }
 }
