@@ -1,4 +1,20 @@
 # FyleProject
+## Fyle Frontend Internship Challenge
+## Techstack used:
+1) Angular 13.x
+2) Libraries - Angular Material, ngxPagination
+3) CSS framework - Tailwind
+
+## Description of the Project
+1) Made 6 components, the first one is front-searching component where there is form group to enter the name of person and then a search button so that user will be able to search the repo.
+2) The second component is error component that is to return the error message to the user if the repository do not exist or person not found
+3) The Third component is loading component where mat-spinner loading criteria is used so whenever the user will search the repo it will automatially comes into action.
+4) The fourth component is person-details, so this is the first page that will be visible to user once he/she will click the search button
+5) The fifth component that I used is person-repositories where I have applied pagination through pagination controls so that user can navigate through various pages of repositories
+6) The last component that I made is single-repo that is to show the single repositores of the particular user in the card view
+
+## Running locally
+1) Create a environment.testing.ts file in the environments directory, And export your Github personal access token from inside of it.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
